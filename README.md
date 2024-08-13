@@ -3,7 +3,7 @@
 Here, we illustrate to use the BrainPy ecosystem to implement a differentiable approach for multi-scale brain modeling.
 See our paper for more details:
 
-- [C. Wang, M. Lyu, T. Zhang, and S. Wu, “A differentiable approach to multi-scale brain modeling,” in ICML 2024 Workshop on Differentiable Almost Everything, 2024. ](https://openreview.net/forum?id=a6cpnxdGq7)
+- [C. Wang, M. Lyu, T. Zhang, and S. Wu, “A differentiable approach to multi-scale brain modeling,” in ICML 2024 Workshop on Differentiable Almost Everything, 2024. ](https://arxiv.org/abs/2406.19708)
 
 
 ## Requirements
@@ -56,6 +56,21 @@ python task-coba-ei-rsnn.py --method bptt
 # Training with online learning methods in BrainScale
 python task-coba-ei-rsnn.py --method diag
 python task-coba-ei-rsnn.py --method expsm_diag --etrace_decay 0.98
+```
+
+
+
+## Citation
+
+If you found this library to be useful in academic work, then please cite: ([arXiv link](https://arxiv.org/abs/2406.19708))
+
+```bash
+@article{wang2024differentiable,
+  title={A Differentiable Approach to Multi-scale Brain Modeling},
+  author={Wang, Chaoming and Lyu, Muyang and Zhang, Tianqiu and He, Sichao and Wu, Si},
+  journal={Differentiable Almost Everything Workshop at International Conference on Machine Learning 2024},
+  year={2024}
+}
 ```
 
 
