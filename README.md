@@ -51,11 +51,11 @@ For example, to train a conductance-based EI spiking network, run the following 
 ```bash
 
 # Training with BPTT
-python task-coba-ei-rsnn.py --method bptt
+python task_training.py --method bptt
 
 # Training with online learning methods in BrainScale
-python task-coba-ei-rsnn.py --method diag
-python task-coba-ei-rsnn.py --method expsm_diag --etrace_decay 0.98
+python task_training.py --method diag
+python task_training.py --method expsm_diag --etrace_decay 0.98
 ```
 
 
