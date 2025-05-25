@@ -257,7 +257,7 @@ def fitting_by_gradient(fit_target='spike', n_sample=100):
     return param.x, param.fun
 
 
-def fitting_by_others(fit_target='spike', method='skopt', n_sample=20):
+def fitting_by_others(fit_target='spike', method='bayesian', n_sample=20):
     print(f"Method: {method}, fit_target: {fit_target}, n_sample: {n_sample}")
 
     if fit_target == 'spike':
